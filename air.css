@@ -1,7 +1,7 @@
 :root {
     --bg-main: #ffffff;
     --bg-dim: #f0f0f0;
-    --bg-active: #c4c4c4;
+    --bg-active: white;
     --bg-inactive: #e0e0e0;
     --red: #d00000;
     --green: #008900;
@@ -61,8 +61,8 @@
 
 html {
   font-size: 12px;
-  font-family: SF Pro Text, Helvetica;
-  font-weight: 375;
+  font-family: "Helvetica", "Arial";
+  font-weight: normal;
 }
 
 @media screen and (min-width: 32rem) and (max-width: 48rem) {
@@ -81,7 +81,7 @@ p,
 .air-p {
   font-size: 15px;
   font-weight: 350;
-  margin-bottom: 1rem;
+  margin: auto;
   color: #00112B;
 }
 
@@ -96,7 +96,7 @@ dt {
 
 dt::after {
     content: "  ";
-    font-weight: 400;
+    font-weight: normal;
     font-size: 0.8rem;
 }
 
@@ -109,7 +109,7 @@ header ul {
     margin: 0;
     padding: 0;
     list-style-type: square;
-    background-color: #e0e0e0;
+    background-color: white;
 }
 
 header h4 {
@@ -159,7 +159,8 @@ h4,
 
 h5,
 .air-h5 {
-  font-size: 0.9rem ;
+  font-size: 20px ;
+  color: #00112B;
   margin: 0;
   padding: 0;
 }
@@ -178,15 +179,18 @@ body {
   line-height: 1.5;
   margin: auto;
   padding: 20px;
-  max-width: 700px;
+  max-width: 800px;
   text-align: left;
   background-color: var(--bg-main);
   color: var(--fg-main);
+  align-items: center;
+  justify-content: center;
+  color: #00112B;
 }
 
 a,
 a:visited {
-  font-weight: 350;
+  font-weight: normal;
   color: var(--blue);
   background-color: var(--bg-main);
   text-decoration: none;
@@ -195,27 +199,32 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  font-weight: 350;
+  background-color:white; /* Set the background color of the header */
   color: var(--blue);
-  background-color: var(--bg-main);
-  text-decoration: none;
+  align-items: center;
 }
 
-header a,
-header a:visited,
-header a:hover {
-  font-size: 12px;
-  font-weight: 400;
-  color: #000000cc;
-  background-color: #e0e0e0;
-  text-decoration: none;
+header {
+  background-color: white;
+  padding: 10px;
+  color: #00112B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header a:focus {
-  font-weight: bold;
-  color: #000000cc;
-  background-color: #fbfbfdcc;
+header div {
+  display: flex;
+  gap: 10px;
+}
+
+header a {
+  color: #777;
   text-decoration: none;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-weight: lighter;
 }
 
 blockquote {
@@ -231,6 +240,8 @@ ol,
 li {
   text-align: left;
   font-size: 1rem;
+  margin: auto;
+  font-weight: 380;
 }
 
 .center {
@@ -246,4 +257,36 @@ figcaption {
   padding: 2px;
   text-align: center;
   font-size: 12px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  max-width: 800px; /* Optional: Set a maximum width for the content */
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  text-align: left; /* Adjusted to left-align the text */
+  padding: 0 20px; /* Optional: Add some padding for better readability */
+  font-weight: 350;
+}
+
+.centered-text {
+  font-size: 15px;
+  color: #00112B;
+  white-space: pre-line;
 }
