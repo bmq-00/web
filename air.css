@@ -20,7 +20,6 @@
     --fg-main: #00112B;
 }
 
-
 @media print {
   *,
   *:before,
@@ -60,7 +59,7 @@
 }
 
 html {
-  font-size: 12px;
+  font-size: 15px;
   font-family: "Helvetica", "Arial";
   font-weight: normal;
 }
@@ -289,4 +288,32 @@ figcaption {
   font-size: 15px;
   color: #00112B;
   white-space: pre-line;
+}
+.card {
+  width: 400px; /* Set the width of the card */
+  padding: 20px; /* Add padding inside the card */
+  background-color: #f4f4f4; /* Set the background color */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  margin: 20px; /* Add margin for spacing */
+}
+
+.card-text {
+  font-size: 15px;
+  color: #333;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.card a {
+  font-weight: 350;
+  color: var(--blue);
+  background-color: #f4f4f4;
+  text-decoration: none;
+}
+
+.card h3 {
+  margin-top: auto;
+  text-align: left;
+  font-weight: 600;
 }
