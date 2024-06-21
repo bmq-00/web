@@ -1247,6 +1247,7 @@ footer .container .end-footer p {
     .about .content .text-section {
         width: 100%;
     }
+  
 
     .about .content .image-section {
         display: flex;
@@ -1254,7 +1255,7 @@ footer .container .end-footer p {
     }
 
     .about .content .image-section img {
-        width: 80%;
+        width: 50%;
     }
 
     .about .content .side-2 .text-section,
