@@ -36,9 +36,7 @@ body {
     color: rgb(231, 230, 232);
 }
 
-ul {
-    list-style: none;
-}
+
 
 tt {
     font-size: 16px;
@@ -499,7 +497,7 @@ header .right-header nav ul li a:hover {
 
 .about .content .side-2 .image-section,
 .about .content .side-1 .text-section {
-    padding-left: 200px;
+    padding: 0px 150px 20px 150px;
 }
 
 .about .content .side-2 .text-section .span-panel,
@@ -1186,7 +1184,7 @@ footer .container .end-footer p {
     .about .content .side-2 .text-section,
     .about .content .side-2 .image-section,
     .about .content .side-1 .text-section {
-        padding: 25px;
+        padding: 0px 25px 25px 25px;
         text-align: left;
     }
 
@@ -1293,7 +1291,7 @@ footer .container .end-footer p {
     .about .content .side-2 .text-section,
     .about .content .side-2 .image-section,
     .about .content .side-1 .text-section {
-        padding: 25px;
+        padding: 0px 25px 25px 25px;
        
     }
 
