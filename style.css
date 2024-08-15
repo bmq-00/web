@@ -15,8 +15,8 @@
     --padding: 8%;
     --min-font-header: 58px;
     --min-font: 14px;
-    --font-main:  "Helvetica Neue";
-    --font-family-secondary:  "Helvetica Neue";
+    --font-main:  "Helvetica Neue", "Arial", sans-serif;
+    --font-family-secondary:  "Helvetica Neue", "Arial", sans-serif;
     --font-family: 'Acme';
     --font-p: 'Space Grotesk', sans-serif;
     --font-numbers: 'Karla', sans-serif;
