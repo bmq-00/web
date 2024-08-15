@@ -99,10 +99,9 @@ header {
 }
 
 header .content {
-    padding-left: var(--padding);
-    padding-right: var(--padding);
+
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -443,7 +442,7 @@ header .right-header nav ul li a:hover {
 /* ---------------------about---------------- */
 .about {
     width: 100%;
-    min-height: 100vh;
+
 }
 .about   table, th, td {
     border: 1px solid white;
@@ -453,7 +452,7 @@ header .right-header nav ul li a:hover {
   }
 
 .about .content {
-    padding-top: 20px;
+   
     padding-bottom: 20px;
 }
 
@@ -533,6 +532,7 @@ header .right-header nav ul li a:hover {
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
+    text-align: left;
 }
 
 .about .content .side-2 .text-section .row,
@@ -1187,13 +1187,14 @@ footer .container .end-footer p {
     .about .content .side-2 .image-section,
     .about .content .side-1 .text-section {
         padding: 25px;
-        text-align: center;
+        text-align: left;
     }
 
     .about .content .side-1 .text-section .row h5,
     .about .content .side-2 .text-section h3,
     .about .content .side-1 .text-section h3 {
-        font-size: 56px;
+        font-size: 40px;
+        line-height: 40px;
     }
 
     /* -----------------team--------------------- */
@@ -1234,7 +1235,7 @@ footer .container .end-footer p {
 
     /* -----------------header--------------------- */
     header {
-        background-color: var(--color-gray-100);
+        background-color: transparent;
         position: relative;
     }
 
