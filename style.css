@@ -36,7 +36,10 @@ body {
     color: rgb(231, 230, 232);
 }
 
-
+.center { 
+    text-align: center; 
+    width: 100%; 
+} 
 
 tt {
     font-size: 16px;
@@ -46,9 +49,7 @@ a {
     color: #9EBDDB
 }
 
-.fa-file-arrow-down {
-    font-size: 32px;
-}
+
 
 a.button {
     display: inline-flex;
@@ -439,7 +440,10 @@ header .right-header nav ul li a:hover {
 
 /* ---------------------about---------------- */
 .about {
-    width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
 
 }
 .about   table, th, td {
@@ -487,6 +491,7 @@ header .right-header nav ul li a:hover {
     padding-right: 16px;
     z-index: 99999;
     
+    
 }
 
 .about .content .image-section img {
@@ -498,6 +503,7 @@ header .right-header nav ul li a:hover {
 .about .content .side-2 .image-section,
 .about .content .side-1 .text-section {
     padding: 0px 150px 20px 150px;
+    
 }
 
 .about .content .side-2 .text-section .span-panel,
